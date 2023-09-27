@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Navigation Bar</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <div class="logo">Lakshitha VJ</div>
+        <!-- Hamburger menu icon -->
+        <div class="hamburger">
+            <div class="line"></div>
+            <div class="line"></div>
+            <div class="line"></div>
+        </div>
+        <!-- Nvigation Bar -->
+        <nav class="nav-bar">
+            <ul>
+                <li>
+                    <a href="index.html" class="active">Home</a>
+                </li>
+                <li>
+                    <a href="features.html">Features</a>
+                </li>
+                <li>
+                    <a href="pricing.html">Pricing</a>
+                </li>
+                <li>
+                    <a href="about.html">About</a>
+                </li>
+                <li>
+                    <a href="contact.html">Contact</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <!-- title bar -->
+    <div class="title-bar">
+        <h1>Home</h1>    
+    </div>
+
+
+    <!-- image -->
+    <div class="img">
+        <img src="images/1.jpg" alt="">
+    </div>
+
+
+<div class="container">
+    <h3>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt debitis
+         facere ipsum ut totam quis voluptates, perferendis nam. Repudiandae 
+         neque veritatis vitae eius doloribus sequi, iusto ut architecto optio
+          illum! Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti
+           repellendus iusto quibusdam quis, distinctio magnam delectus, 
+           necessitatibus atque possimus 
+        quam facere eligendi at quas nostrum saepe maiores, sequi quasi tenetur!</h3>
+</div>
+
+
+
+
+    <script>
+        hamburger = document.querySelector(".hamburger");
+        hamburger.onclick = function () {
+            navBar = document.querySelector(".nav-bar");
+            navBar.classList.toggle("active");
+        }
+    </script>
+
+</body>
+
+</html>
